@@ -12,7 +12,7 @@
 .logo {
     width: 272px;
     height: 92px;
-    padding-top: 109px;
+    padding-top: 149px;
     margin-bottom: 30px;
 }
 
@@ -142,4 +142,40 @@ ul a {
 
 ul a:hover {
     text-decoration: underline;
+}
+
+nav {
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    width: 220px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-align: right;
+}
+
+.profile-pic img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.nav-apps {
+    opacity: .55;
+    display: flex;
+    align-self: center;
 }
