@@ -153,6 +153,7 @@ nav {
 
 .cards {
     display: flex;
+    margin-bottom: 40px;
 }
 
 .search-card {
@@ -198,6 +199,7 @@ nav {
     text-decoration: none;
     color: #1a73e7;
     font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .search-card a:hover {
@@ -205,20 +207,165 @@ nav {
 }
 
 .grey-text {
-    color: #00000055;
+    color: #000000aa;
+}
+
+header {
+    width: 400px;
+}
+
+.search-content {
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.search-content a:visited {
+    text-decoration: none;
+    color: #1a73e7; 
+}
+
+.search-content h1 {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.search-content p  {
+    margin-bottom: 0px;
+}
+
+.material-icons.star {
+    color: #F6B910;
+    font-size: 14px;
+    margin: 0px -3px;
+}
+
+.greyish-text {
+    color: #70757a;
 }
 
 .wiki {
     width: 454px;
     height: 875px;
     border: solid 1px #5f6368;
-    border-radius: 8px
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
-header {
-    margin-left: 160px;
+.wiki-images {
+    display: flex;
+    height: 186px;
+    justify-content: space-between;
+    margin-top: 6px;
+
 }
 
-.search-content {
-    width: 600px;
+.ps4-disk {
+    width: 186px;
+}
+
+.more-images {
+    width: 268px;
+}
+
+.wiki-title {
+    margin-left: 10px;
+}
+
+.wiki-headline {
+    display: flex;
+    width: 420px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 15px;
+    height: 40px;
+}
+
+.wiki-headline h1 {
+    font-family: sans-serif;
+    font-weight: 200;
+} 
+
+.wiki-title h3 {
+    margin-top: 5px;
+    font-size: 14px;
+    color:#70757a;
+}
+
+.wiki-header-limit {
+    border-top: 1px solid #00000022;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.wiki-info {
+    list-style: none;
+    margin: 5px 0 15px -23px;
+}
+
+.wiki-info li {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    line-height: 1.58;
+    font-size: 14px;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.wiki-info a {
+    color: #1a73e7;
+}
+
+.search-small-cards img {
+    margin-left: -7px;
+}
+
+.search-small-cards  {
+    display: flex;
+    width: 460px;
+    justify-content: space-evenly;
+    
+}
+
+ul.search-small-cards  {
+    padding: 0;
+    margin-top: 0;
+}
+
+.search-small-cards li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 72px;
+}
+
+.search-small-cards p {
+    margin: 0;
+    color: #70757a;
+}
+
+.search-small-cards a {
+    color: #1a73e7;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wiki-small-cards h3 {
+    margin: 0 0 5px 15px;
+}
+
+.itens-pesquisados h3 {
+    margin: 0 0 5px 15px;
+}
+
+.itens-pesquisados ul {
+    width: 300px;
+    justify-content: space-evenly;
 }
